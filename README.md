@@ -11,11 +11,11 @@ however approximate counts are good enough.
 Example:
 
 ```go
-counter := abacus.New(maxMemoryMB=10) # abacus will use max 10MB to store your counts
+counter := abacus.New(maxMemoryMB=10) // abacus will use max 10MB to store your counts
 counter.Update([]string{"item1", "item2", "item2"})
-counter.Counts("item1") # 1 , counts for "item1"
-counter.Total() # 3 ,Total number of counts (sum of counts of all elements)
-counter.Cardinality() # 2 , How many different items are there?
+counter.Counts("item1") // 1 , counts for "item1"
+counter.Total() // 3 ,Total number of counts (sum of counts of all elements)
+counter.Cardinality() // 2 , How many different items are there?
 ```
 
 Abacus lets you define how much memory you want to use and you go from there counting items.
