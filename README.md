@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/dav009/abacus/master/199506.svg)
+![](https://raw.githubusercontent.com/dav009/abacus/master/199506.svg?sanitize=true)
 
 # Abacus
 
