@@ -44,8 +44,13 @@ Note: This is me playing with Golang again, heavily based on [Bounter](https://g
 
 ## Under the hood
 
-- Count–min sketch
-- HyperLogLog algorithm 
+### Count–min sketch
+
+Used to count item frequencies.
+
+### HyperLogLog
+
+Used to calculate the cardinality
 
 
-Icon made by (free-icon)[https://www.flaticon.com/free-icon/] from www.flaticon.com 
+Icon made by [free-icon](https://www.flaticon.com/free-icon/)
