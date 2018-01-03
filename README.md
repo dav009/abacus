@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dav009/abacus/master/199506.svg?sanitize=true"  width="250px" >
+<img src="https://raw.githubusercontent.com/dav009/abacus/master/199506.svg?sanitize=true"  width="150px" >
 
 # Abacus
 
@@ -34,7 +34,7 @@ Corpus Data Structure Used Memory Accuracy
 | Half of Wiki corpus (English)   | Abacus (1000MB) |  1.75GB    | 96%  |
 | Half of Wiki corpus (English)   | Map       |  3.3GB    | 100%  |
 | Complete Wiki corpus (English)  | Abacus (2200MB) |  3.63GB    | 98%  |
-| Complete Wiki corpus (English)  | Abacus (500MB) |   741MB   |   |
+| Complete Wiki corpus (English)  | Abacus (500MB) |   741MB   | 15%  |
 | Complete Wiki corpus (English)  | Map       |  10.46GB    | 100%  |
 
 Note: This is me playing with Golang again, heavily based on [Bounter](https://github.com/RaRe-Technologies/bounter)
