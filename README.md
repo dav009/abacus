@@ -1,6 +1,6 @@
-# Abacus
+![](https://raw.githubusercontent.com/dav009/abacus/master/199506.svg)
 
-![](https://raw.githubusercontent.com/dav009/abacus/master/abacus.png)
+# Abacus
 
 Abacus let you count item frequencies in big datasets with a fixed amount of memory.
 
