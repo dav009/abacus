@@ -14,7 +14,7 @@ type Abacus interface{
 }
 
 func widthAndDepthFromSize(sizeMB uint) (uint32, uint32){
-	width := uint64(uint64(sizeMB*1000000) / uint64( 8 * sizeOfCell() ))
+	width := uint64(uint64(sizeMB*1000000) / uint64( 2 * 8 * sizeOfCell() ))
 	depth :=(uint64(sizeMB)*1000000) / (width * uint64(sizeOfCell()))
 	return uint32(width), uint32(depth)
 }
