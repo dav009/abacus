@@ -7,10 +7,10 @@ import (
 )
 
 type Abacus interface{
-	Counts(key string) (uint32, error)
+	Counts(key string) (CountType, error)
 	Update(items []string) error
-	Total() (int, error)
-	Cardinality() (uint32, error)
+	Total() (*big.Int, error)
+	Cardinality() (CountType, error)
 }
 
 func widthAndDepthFromSize(sizeMB uint) (uint32, uint32){
