@@ -32,9 +32,16 @@ Corpus Data Structure Used Memory Accuracy
 | Corpus  | Data Structure  | Used Memory     | Accuracy  |
 |---------|-----------------|-----------------|-----------|
 | Half of Wiki corpus (English)   | Abacus (1000MB) |  1.75GB    | 96%  |
+| Half of Wiki corpus (English)   | Abacus (Log8) (200MB) |  369MB    | 70%  |
+| Half of Wiki corpus (English)   | Abacus (Log8) (400MB) |  407MB    | 98%  |
 | Half of Wiki corpus (English)   | Map       |  3.3GB    | 100%  |
+
+| Corpus  | Data Structure  | Used Memory     | Accuracy  |
+|---------|-----------------|-----------------|-----------|
 | Complete Wiki corpus (English)  | Abacus (2200MB) |  3.63GB    | 98%  |
 | Complete Wiki corpus (English)  | Abacus (500MB) |   741MB   | 15%  |
+| Complete Wiki corpus (English)  | Abacus (Log8) (500MB) |  760MB    |  90% |
+| Complete Wiki corpus (English)  | Abacus (Log8) (700MB) |  889MB    |  97% |
 | Complete Wiki corpus (English)  | Map       |  10.46GB    | 100%  |
 
 Note: This is me playing with Golang again, heavily based on [Bounter](https://github.com/RaRe-Technologies/bounter)
@@ -52,5 +59,6 @@ Used to count item frequencies.
 
 Used to calculate the cardinality
 
+-----------
 
 Icon made by [free-icon](https://www.flaticon.com/free-icon/)
